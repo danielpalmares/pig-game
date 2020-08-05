@@ -25,16 +25,15 @@ document.querySelector('.btn-roll').addEventListener('click', function() {
 
         // 3. Update the round score IF the rolled number was NOT a 1
         if (dice !== 1) {
-            //Add score
+            // Add score
             roundScore += dice;
             document.querySelector('#current-' + activePlayer).textContent = roundScore;
         } else {
-            //Next player
+            // Next player
             nextPlayer();
         }
     }    
 });
-
 
 document.querySelector('.btn-hold').addEventListener('click', function() {
     if (gamePlaying) {
@@ -52,15 +51,14 @@ document.querySelector('.btn-hold').addEventListener('click', function() {
             document.querySelector('.player-' + activePlayer + '-panel').classList.remove('active');
             gamePlaying = false;
         } else {
-            //Next player
+            // Next player
             nextPlayer();
         }
     }
 });
 
-
 function nextPlayer() {
-    //Next player
+    // Next player
     activePlayer === 0 ? activePlayer = 1 : activePlayer = 0;
     roundScore = 0;
 
@@ -70,8 +68,8 @@ function nextPlayer() {
     document.querySelector('.player-0-panel').classList.toggle('active');
     document.querySelector('.player-1-panel').classList.toggle('active');
 
-    //document.querySelector('.player-0-panel').classList.remove('active');
-    //document.querySelector('.player-1-panel').classList.add('active');
+    // document.querySelector('.player-0-panel').classList.remove('active');
+    // document.querySelector('.player-1-panel').classList.add('active');
 
     document.querySelector('.dice').style.display = 'none';
 }
@@ -99,8 +97,6 @@ function init() {
     document.querySelector('.player-0-panel').classList.add('active');
 }
 
-//document.querySelector('#current-' + activePlayer).textContent = dice;
-//document.querySelector('#current-' + activePlayer).innerHTML = '<em>' + dice + '</em>';
-//var x = document.querySelector('#score-0').textContent;
-
-
+// document.querySelector('#current-' + activePlayer).textContent = dice;
+// document.querySelector('#current-' + activePlayer).innerHTML = '<em>' + dice + '</em>';
+// var x = document.querySelector('#score-0').textContent;
