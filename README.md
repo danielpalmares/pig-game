@@ -1,5 +1,5 @@
-# PIG GAME
-Just a small game that I developed during the quarantine period. :+1:
+# PIG GAME :pig:
+Just a small game that I have developed during the quarantine period. :+1:
 
 #### GAME RULES :memo:
 - The game has 2 players, playing in rounds.
@@ -13,4 +13,5 @@ Just a small game that I developed during the quarantine period. :+1:
 - Players can set the winning score, so they can change the predefined score of *100*. 
 - There are two *dices* now. The player looses his **CURRENT** score when one of them is a 1. 
 
+Check it out here :point_right:[pig game](https://piggame-dann.netlify.app/).    
 Have fun! :wink:
