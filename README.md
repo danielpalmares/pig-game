@@ -1,7 +1,7 @@
 # PIG GAME :pig:
 Just a small game that I have developed during the quarantine period. :+1:
 
-Using **ES5+**
+Using basically **ES5**
 
 #### GAME RULES :memo:
 - The game has 2 players, playing in rounds.
