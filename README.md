@@ -15,6 +15,6 @@ Using basically **ES5**
 - Players can set the winning score, so they can change the predefined score of *100*. 
 - There are two *dices* now. The player looses his **CURRENT** score when one of them is a 1. 
 
-Check it out here :point_right:[pig game](https://piggame-dann.netlify.app/). 
+Check it out here :point_right:[pig game](https://pig-game-dann.netlify.app/). 
 
 Have fun! :wink:
