@@ -55,9 +55,7 @@ $ git clone <https://github.com/danielpalmares/pig-game>
 # Go to the project folder
 $ cd pig-game
 
-# Open the index file with Live Server
-
-# Running on port:3000
+# Open the index file with Live Server!
 ```
 
 If you don't have the Live Server extension installed, check this link [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
