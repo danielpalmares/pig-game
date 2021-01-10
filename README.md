@@ -59,11 +59,11 @@ $ cd pig-game
 # Running on port:3000
 ```
 
-If you don't have the Live Server extension installed, this link is for you [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+If you don't have the Live Server extension installed, check this link [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
 
 ## Technologies
 
-These tools were used in the project:
+These technologies were used in the project:
 
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
