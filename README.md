@@ -8,6 +8,7 @@
   <a href="#pre-requirements">Pre-requirements</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#instructions">Instructions</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rules">Rules</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#license">License</a>
 </p>
 
@@ -68,6 +69,22 @@ These technologies were used in the project:
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+
+## Rules 
+
+#### Normal mode ❄️
+
+- The game has 2 players, playing in rounds.
+- In each turn, a player rolls a dice as many times as he whishes. Each result get added to his **ROUND** score.
+- **BUT**, if the player rolls a 1, all his **ROUND** score gets lost. After that, it's the next player's turn.
+- The player can choose to 'Hold', which means that his **ROUND** score gets added to his **GLOBAL** score. After that, it's the next player's turn.
+- The first player to reach 100 points on **GLOBAL** score wins the game.
+
+#### On Fire mode 🔥 (ACTIVE)
+
+- A player looses his **ENTIRE** score when he rolls two 6 in a row. After that, it's the next player's turn. 
+- Players can set the winning score, so they can change the predefined score of 100. 
+- There are two dices now. The player looses his **CURRENT** score when one of them is a 1. 
 
 ## License
 
